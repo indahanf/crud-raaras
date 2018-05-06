@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>
+			Peminjaman Buku
+		</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	<head>
+	<body>
+		<div class="header">
+			Peminjaman Buku
+		</div>
+		
+		<div class="content">
+			<center>Isi Data Anda di Bawah Ini!</center>
+			<form action="prosesinput.php" method="POST">
+				<table align="center">
+					<tr>
+						<td>Nama Lengkap</td> 
+						<td>:</td>
+						<td><input type="text" name="nama"></td>
+					</tr>
+					<tr>
+						<td>NIM</td>
+						<td>:</td>
+						<td><input type="text" name="nim"></td>
+					</tr>
+					<tr>
+						<td>Nomor Telepon/HP</td>
+						<td>:</td>
+						<td><input type="text" name="nohp"></td>
+					</tr>
+					<tr>
+						<td>Judul Buku</td>
+						<td>:</td>
+						<td><input type="text" name="judulbuku"></td>
+					</tr>
+					<tr>
+						<td>Hari dan Tanggal Peminjaman</td>
+						<td>:</td>
+						<td><input type="text" name="tglpinjam" placeholder="yyyy-mm-dd"></td>
+					</tr>
+					<tr>
+						<td>Hari dan Tanggal Pengembalian</td>
+						<td>:</td>
+						<td><input type="text" name="tglkembali" placeholder="yyyy-mm-dd"></td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+						<td>
+							<input type="submit" name="submit" value="Submit">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		
+		<div class="footer">
+			Copyright &copy;2016. All Rights Reserved
+		</div>
+	</body>
+</html>
